@@ -13,22 +13,50 @@ html, body{
 
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
 
+body{
+    margin: 10px;
+}
+
+.flex{
+    display: flex;
+    height: 100%;
+}
+
+.headermain{
+    height: 100%;
+}
+
 .sidebar{
-    /* pxالعرض هنا يجب ان يكون 120 */
+ background-color: #00FFFF ;
+    width: 120px;
+    height: 100%;
 }
 
 .header{
     /* pxالطول هنا يجب ان يكون 80 */
+    background-color:#797D7F  ;
+    height: 20%;
+    
 }
 
 .main{
-
+    background-color:#B2BABB   ;
+height: 80%;
 }
 
 a{
-    color: darkgray;
+    text-decoration: none;
+    color: black;
+    
+    
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
 }
+a:hover{
+    color:red;
+}
+
+
+
 
 /* !بــونص */
 /* (hover) اجعل اللنك يتغير لونه الى الابيض عند التأشير عليه */
